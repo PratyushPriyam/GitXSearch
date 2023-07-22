@@ -1,0 +1,31 @@
+.main{
+    background: linear-gradient(45deg, white, black, rgb(4, 4, 131), black, white);
+    width: max-content;
+}
+.card {
+    display: flex;
+    height: 30vh;
+    padding: 5px;
+    align-items: center;
+}
+.card img {
+    border-radius: 500px;
+    height: 200px;
+    width: 200px;
+    transition: 500ms;
+}
+.card img:hover {
+    transform: scale(1.2);
+    padding: 20px;
+}
+.card p {
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px;
+    transition: 2000ms;
+}
+.card p:hover {
+    transform: rotate(360deg);
+    font-size: 1.5rem;
+}

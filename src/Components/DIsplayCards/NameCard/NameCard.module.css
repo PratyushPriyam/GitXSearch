@@ -1,0 +1,10 @@
+.card h2 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.h2Span {
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
